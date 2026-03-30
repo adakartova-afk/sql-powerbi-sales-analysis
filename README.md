@@ -68,3 +68,24 @@ Tables used:
 ## 7. Project Files
 
 - sql_analysis_olist.ipynb — full analysis
+
+## 📂 Project Structure
+
+- sql/
+  - 01_kpi_overview.sql
+  - 02_sales_trends.sql
+  - 03_product_analysis.sql
+  - 04_customer_analysis.sql
+
+## 🚀 Key Insights
+
+- Revenue peaks in Q4 (November highest)
+- Strong seasonality in sales
+- A few product categories drive most revenue
+- Customer retention is relatively low
+
+## 🛠 Tools Used
+
+- SQL
+- PostgreSQL
+- Jupyter Notebook
