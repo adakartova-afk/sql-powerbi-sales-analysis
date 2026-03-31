@@ -4,6 +4,13 @@ FROM order_items;
 SELECT COUNT(DISTINCT order_id) AS total_orders
 FROM orders;
 
+WITH order_revenue AS (
+    SELECT 
+        order_id,
+        SUM(price) AS order_value
+    FROM order_items
+    GROUP BY order_id
+)
 SELECT 
-    ROUND(SUM(price) * 1.0 / COUNT(DISTINCT order_id), 2) AS average_order_value
-FROM order_items;
+    ROUND(AVG(order_value), 2) AS average_order_value
+FROM order_revenue;
