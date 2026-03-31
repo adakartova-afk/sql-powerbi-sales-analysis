@@ -37,12 +37,19 @@ Key queries include:
 
 ## Key Insights
 
-- Revenue shows strong growth over time, reaching peaks above 1M per month, indicating business expansion.
-- Revenue is highly concentrated in a few product categories, with beauty, watches, and home goods leading sales.
-- Customer retention is critically low (~3% repeat rate), meaning the business heavily depends on acquiring new customers.
-- A small group of customers contributes significantly higher spending compared to others.
-- Revenue is geographically concentrated, with São Paulo (SP) being the dominant region.
+- Monthly revenue shows strong growth, reaching peaks above 1M, indicating rapid business expansion.
 
+- However, the business is heavily dependent on new customers:  
+  repeat customer rate is only ~3%, which is critically low.
+
+- This suggests that the company is spending resources on acquisition but failing to retain customers, creating long-term revenue risk.
+
+- Revenue is highly concentrated in a few categories, with beauty, watches, and home products dominating sales, increasing dependency risk.
+
+- Customer spending is unevenly distributed, where a small group of customers contributes significantly higher revenue.
+
+- Revenue is geographically concentrated, with São Paulo (SP) generating the largest share, indicating regional dependency.
+  
 ---
 
 ## Business Recommendations
@@ -52,3 +59,4 @@ Key queries include:
 - Investigate reasons for low repeat purchase rate and optimize customer experience.
 - Focus marketing efforts on high-performing regions while expanding underperforming ones.
 - Identify and target high-value customers with tailored campaigns.
+- Increase retention rate even by 5–10% to significantly improve long-term revenue stability
