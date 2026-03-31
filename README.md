@@ -43,10 +43,11 @@ Key queries include:
 
 ## Key Insights
 
-- A small percentage of customers contributes a disproportionately high share of total revenue
-- Revenue is concentrated in a limited number of product categories
-- Certain months show significant drops in performance, indicating seasonality or operational issues
-- Customer retention appears weak, with a low proportion of repeat customers
+- Total revenue is approximately $X million, with peak performance in November
+- A small group of customers (~X%) generates the majority of total revenue
+- The top 3 product categories contribute more than X% of overall sales
+- Revenue shows strong seasonality, with Q4 significantly outperforming other periods
+- Repeat customer rate is low (~X%), indicating weak retention
 
 ---
 
@@ -66,3 +67,14 @@ Key queries include:
   - 02_sales_trends.sql
   - 03_product_analysis.sql
   - 04_customer_analysis.sql
+
+---
+
+## Business Impact
+
+This analysis helps the business:
+
+- Identify where most revenue is generated
+- Understand customer dependency risks
+- Improve marketing targeting and retention strategy
+- Optimize product focus based on performance
