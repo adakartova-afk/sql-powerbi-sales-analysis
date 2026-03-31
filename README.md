@@ -1,8 +1,14 @@
+## Key Finding
+
+The business is experiencing rapid revenue growth, exceeding 1M in peak months, but is critically dependent on new customers, with retention at only ~3%, creating a major long-term sustainability risk.
+
+---
+
 ## Business Problem
 
 The company experiences fluctuating revenue and lacks clear visibility into customer behavior, product performance, and retention.
 
-The goal of this analysis is to identify key revenue drivers, evaluate customer value, and uncover opportunities for growth and retention improvement.
+The goal of this analysis is to identify key revenue drivers, evaluate customer value, and uncover opportunities for sustainable growth and retention improvement.
 
 ---
 
@@ -37,38 +43,55 @@ Key analyses include:
 - Revenue share by product category
 - Customer ranking by revenue
 - Top 10% vs bottom 90% revenue contribution
-- Customer retention (new vs returning)
-- Low-performing product categories
+- Customer retention (new vs returning customers)
+- Identification of low-performing product categories
 
 ---
 
 ## Key Insights
 
-- Monthly revenue shows strong growth, reaching peaks above 1M, indicating rapid business expansion.
+1. Revenue is growing rapidly, exceeding 1M in peak months, indicating strong acquisition performance.
 
-- However, the business is heavily dependent on new customers:  
-  repeat customer rate is only ~3%, which is critically low.
+2. Customer retention is critically low (~3%), meaning the business relies almost entirely on new customers.
 
-- This suggests that the company is spending resources on acquisition but failing to retain customers, creating long-term revenue risk.
+3. This creates a significant long-term risk, as revenue growth is not sustainable without improving retention.
 
-- Revenue is highly concentrated in a few categories, with beauty, watches, and home products dominating sales, increasing dependency risk.
+4. Revenue is highly concentrated in a small number of product categories, increasing dependency risk.
 
-- Customer spending is unevenly distributed, where a small group of customers contributes significantly higher revenue.
+5. A small percentage of customers generates a disproportionately large share of total revenue.
 
-- Revenue is geographically concentrated, with São Paulo (SP) generating the largest share, indicating regional dependency.
-- The top 10% of customers generate a significantly larger share of total revenue compared to the remaining customer base
-- Revenue concentration analysis shows dependency on a small number of categories and customers
-  
+---
+
+## Risks Identified
+
+- Extremely low customer retention (~3%) threatens long-term revenue stability  
+- High dependency on new customer acquisition increases marketing cost pressure  
+- Revenue concentration in a few categories creates vulnerability to demand shifts  
+- Overreliance on a small group of customers increases financial risk  
+
+---
+
+## Business Impact
+
+This analysis highlights structural weaknesses in customer retention and revenue distribution, enabling the business to:
+
+- Identify key revenue drivers  
+- Detect high-risk areas in customer and product strategy  
+- Support data-driven decision-making for long-term growth  
+
 ---
 
 ## Business Recommendations
 
-- Improve customer retention through loyalty programs and personalized marketing.
-- Reduce dependency on top categories by diversifying product offerings.
-- Investigate reasons for low repeat purchase rate and optimize customer experience.
-- Focus marketing efforts on high-performing regions while expanding underperforming ones.
-- Identify and target high-value customers with tailored campaigns.
-- Increase retention rate even by 5–10% to significantly improve long-term revenue stability
+- Prioritize retention strategy: increasing repeat rate from 3% to even 10% would significantly stabilize revenue  
+
+- Shift focus from acquisition to retention through loyalty programs and targeted re-engagement campaigns  
+
+- Diversify product portfolio to reduce dependency on top-performing categories  
+
+- Implement customer segmentation to identify and retain high-value customers  
+
+- Expand presence in underperforming regions while maintaining strong markets like São Paulo  
 
 ---
 
