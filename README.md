@@ -1,80 +1,54 @@
-# SQL Business Analysis — E-commerce (Olist Dataset)
-
 ## Business Problem
 
-The company has inconsistent revenue performance and lacks visibility into customer behavior and product performance.
+The company experiences fluctuating revenue and lacks clear visibility into customer behavior, product performance, and retention.
 
-The goal of this analysis is to identify:
-- Key revenue drivers
-- High-value customer segments
-- Underperforming product categories
-- Opportunities to improve retention and sales strategy
+The goal of this analysis is to identify key revenue drivers, evaluate customer value, and uncover opportunities for growth and retention improvement.
 
 ---
 
 ## Key Business Questions
 
-1. What are the main drivers of revenue?
-2. Which customers generate the most value?
-3. Which product categories perform best and worst?
-4. Is revenue growing or declining over time?
-5. How dependent is the business on top customers?
+1. What drives revenue growth over time?
+2. Which product categories generate the most revenue?
+3. Who are the most valuable customers?
+4. How strong is customer retention?
+5. Which regions contribute the most to revenue?
 
 ---
 
 ## SQL Analysis
 
-The analysis was performed using SQL with a focus on:
+The analysis was performed using SQL with focus on:
 
-- Aggregations (SUM, AVG)
-- Joins across multiple tables
-- Customer segmentation
-- Revenue trend analysis
-- Ranking and window functions
+- Revenue aggregation and trend analysis
+- Customer segmentation (new vs returning)
+- Average order value calculation
+- Product category performance
+- Geographic revenue distribution
 
 Key queries include:
-- Monthly revenue trend
+- Monthly revenue trends
 - Revenue by product category
-- Top customers by revenue
-- Average order value
-- Customer segmentation (new vs returning)
+- Top customers by total spend
+- Customer retention rate
+- Revenue by region
 
 ---
 
 ## Key Insights
 
-- Total revenue is approximately $X million, with peak performance in November
-- A small group of customers (~X%) generates the majority of total revenue
-- The top 3 product categories contribute more than X% of overall sales
-- Revenue shows strong seasonality, with Q4 significantly outperforming other periods
-- Repeat customer rate is low (~X%), indicating weak retention
+- Revenue shows strong growth over time, reaching peaks above 1M per month, indicating business expansion.
+- Revenue is highly concentrated in a few product categories, with beauty, watches, and home goods leading sales.
+- Customer retention is critically low (~3% repeat rate), meaning the business heavily depends on acquiring new customers.
+- A small group of customers contributes significantly higher spending compared to others.
+- Revenue is geographically concentrated, with São Paulo (SP) being the dominant region.
 
 ---
 
 ## Business Recommendations
 
-- Focus retention efforts on high-value customers
-- Diversify product strategy to reduce dependency on top categories
-- Investigate causes of revenue drops in low-performing months
-- Implement customer segmentation for targeted marketing campaigns
-
----
-
-## Project Structure
-
-- sql/
-  - 01_kpi_overview.sql
-  - 02_sales_trends.sql
-  - 03_product_analysis.sql
-  - 04_customer_analysis.sql
-
----
-
-## Business Impact
-
-This analysis helps the business:
-
-- Identify where most revenue is generated
-- Understand customer dependency risks
-- Improve marketing targeting and retention strategy
-- Optimize product focus based on performance
+- Improve customer retention through loyalty programs and personalized marketing.
+- Reduce dependency on top categories by diversifying product offerings.
+- Investigate reasons for low repeat purchase rate and optimize customer experience.
+- Focus marketing efforts on high-performing regions while expanding underperforming ones.
+- Identify and target high-value customers with tailored campaigns.
