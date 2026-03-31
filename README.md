@@ -1,91 +1,68 @@
-# 📊 SQL Business Analysis — E-commerce (Olist Dataset)
+# SQL Business Analysis — E-commerce (Olist Dataset)
 
-## 1. Business Objective
+## Business Problem
 
-Analyze e-commerce transactional data to understand:
-- revenue trends over time  
-- customer behavior  
-- key product categories and regions  
+The company has inconsistent revenue performance and lacks visibility into customer behavior and product performance.
 
-The goal is to identify business insights and support decision-making.
-
----
-
-## 2. Dataset
-
-Brazilian E-commerce Public Dataset (Olist)
-
-Tables used:
-- customers
-- orders
-- order_items
-- products
+The goal of this analysis is to identify:
+- Key revenue drivers
+- High-value customer segments
+- Underperforming product categories
+- Opportunities to improve retention and sales strategy
 
 ---
 
-## 3. Tools Used
+## Key Business Questions
 
-- SQL (SQLite)
-- Python (Google Colab)
-- Pandas
-
----
-
-## 4. Analysis Performed
-
-- Revenue by month  
-- Orders by month  
-- Average Order Value (AOV)  
-- Revenue by category  
-- Top customers  
-- New vs returning customers  
-- Repeat customer rate  
-- Revenue by state  
+1. What are the main drivers of revenue?
+2. Which customers generate the most value?
+3. Which product categories perform best and worst?
+4. Is revenue growing or declining over time?
+5. How dependent is the business on top customers?
 
 ---
 
-## 5. Key Findings
+## SQL Analysis
 
-- Revenue peaked in November 2017 (~1M), showing strong seasonality.
-- Q4 is the highest-performing period.
-- Revenue in 2018 is stable but below peak levels.
-- A small number of categories generate most of the revenue.
-- Customer retention is relatively low, indicating reliance on new customers.
-- Some months show near-zero revenue due to incomplete data.
+The analysis was performed using SQL with a focus on:
 
----
+- Aggregations (SUM, AVG)
+- Joins across multiple tables
+- Customer segmentation
+- Revenue trend analysis
+- Ranking and window functions
 
-## 6. Business Recommendations
-
-- Focus marketing efforts on Q4 peak season.
-- Improve customer retention (loyalty programs, remarketing).
-- Expand strong product categories.
-- Investigate low-performing regions.
-- Ensure data completeness before decision-making.
+Key queries include:
+- Monthly revenue trend
+- Revenue by product category
+- Top customers by revenue
+- Average order value
+- Customer segmentation (new vs returning)
 
 ---
 
-## 7. Project Files
+## Key Insights
 
-- sql_analysis_olist.ipynb — full analysis
+- A small percentage of customers contributes a disproportionately high share of total revenue
+- Revenue is concentrated in a limited number of product categories
+- Certain months show significant drops in performance, indicating seasonality or operational issues
+- Customer retention appears weak, with a low proportion of repeat customers
 
-## 📂 Project Structure
+---
+
+## Business Recommendations
+
+- Focus retention efforts on high-value customers
+- Diversify product strategy to reduce dependency on top categories
+- Investigate causes of revenue drops in low-performing months
+- Implement customer segmentation for targeted marketing campaigns
+
+---
+
+## Project Structure
 
 - sql/
   - 01_kpi_overview.sql
   - 02_sales_trends.sql
   - 03_product_analysis.sql
   - 04_customer_analysis.sql
-
-## 🚀 Key Insights
-
-- Revenue peaks in Q4 (November highest)
-- Strong seasonality in sales
-- A few product categories drive most revenue
-- Customer retention is relatively low
-
-## 🛠 Tools Used
-
-- SQL
-- PostgreSQL
-- Jupyter Notebook
