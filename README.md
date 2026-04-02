@@ -106,3 +106,17 @@ This analysis highlights structural weaknesses in customer retention and revenue
   - 06_customer_ranking.sql
   - 07_customer_concentration.sql
   - 08_low_performing_categories.sql
+ 
+  ---
+
+    ## Power BI Dashboard
+
+This project also includes a Power BI dashboard analyzing revenue, orders, and seller performance.
+
+Key features:
+- KPI tracking (Revenue, Orders, AOV)
+- Revenue trend analysis
+- Top products and sellers
+- Interactive date filtering
+
+See attached dashboard file and PDF for visualization.
